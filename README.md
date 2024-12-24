@@ -11,6 +11,8 @@ List of projects:
 
 4.[Scraping Amazon Product Information using Beautiful Soup](https://www.geeksforgeeks.org/scraping-amazon-product-information-using-beautiful-soup/)- having trouble with getting the data from the website, has to do something with the javascript, I think the best course of action is to use selenium, will try to remake it in the future with selenium
 
+7.[Scraping Indeed Job Data Using Python](https://www.geeksforgeeks.org/scraping-indeed-job-data-using-python/) - the code executes, but the same problem like with project 4., I get no data back, possible solution is to use selenium
+
 Minsweeper
   -created a minesweeper game
   - almost done
