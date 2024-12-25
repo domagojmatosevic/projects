@@ -15,7 +15,7 @@ List of projects:
 
 8.[YouTube Data Scraping, Preprocessing and Analysis using Python](https://www.geeksforgeeks.org/youtube-data-scraping-preprocessing-and-analysis-using-python/)- selenium chrome driver doesn't work, have to look into it
 
-Minsweeper
+Minesweeper
   -created a minesweeper game
   - almost done
   - the only thing missing is the feature of auto-completion(when you uncover a '0' tile, it doesn't uncover surrounding '0' tiles)
