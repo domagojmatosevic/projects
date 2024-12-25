@@ -15,6 +15,8 @@ List of projects:
 
 8.[YouTube Data Scraping, Preprocessing and Analysis using Python](https://www.geeksforgeeks.org/youtube-data-scraping-preprocessing-and-analysis-using-python/)- selenium chrome driver doesn't work, have to look into it
 
+9.[Web Scraping for Stock Prices in Python](https://www.geeksforgeeks.org/web-scraping-for-stock-prices-in-python/)-Code executes, but still no data, have to try to use selenium instead of requests module
+
 Minesweeper
   -created a minesweeper game
   - almost done
