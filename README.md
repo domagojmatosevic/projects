@@ -19,4 +19,5 @@ Minsweeper
   -created a minesweeper game
   - almost done
   - the only thing missing is the feature of auto-completion(when you uncover a '0' tile, it doesn't uncover surrounding '0' tiles)
+  -  still have to decide will I write the rules inside the script or keep it outside as an .txt file
 
