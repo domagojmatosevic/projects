@@ -13,6 +13,8 @@ List of projects:
 
 7.[Scraping Indeed Job Data Using Python](https://www.geeksforgeeks.org/scraping-indeed-job-data-using-python/) - the code executes, but the same problem like with project 4., I get no data back, possible solution is to use selenium
 
+8.[YouTube Data Scraping, Preprocessing and Analysis using Python](https://www.geeksforgeeks.org/youtube-data-scraping-preprocessing-and-analysis-using-python/)- selenium chrome driver doesn't work, have to look into it
+
 Minsweeper
   -created a minesweeper game
   - almost done
