@@ -52,7 +52,7 @@ def input_value(name, lowerbound, uppperbound):
             print("This value is not allowed. Try again.")
     return value
 
-def play(realBoard, shownBoard, tilesLeft):
+def play(realBoard, shownBoard, tilesLeft, width, height):
     while(1):
         pick = input("Pick a tile: ")
         tiles_coordinates = pick.split(",")
@@ -84,16 +84,7 @@ def play(realBoard, shownBoard, tilesLeft):
             continue
     return tilesLeft
 
-
-
-if __name__ == '__main__':
-
-    try:
-        file = open('Minesweeper/rules.txt', 'r')
-        print(file.read())
-    except FileNotFoundError:
-        print("Couldn't find the rules.txt file.")
-
+def game():
     height = input_value('Height', 2, 5)
     width = input_value('Width', 2, 5)
     numBombs = input_value('Number of bombs', 1, height*width)
@@ -108,4 +99,23 @@ if __name__ == '__main__':
     tilesLeft = width*height - numBombs
     while(tilesLeft != 0):
         draw_board(shownBoard)
-        tilesLeft = play(realBoard, shownBoard, tilesLeft)
+        tilesLeft = play(realBoard, shownBoard, tilesLeft, width, height)
+
+
+if __name__ == '__main__':
+
+    try:
+        file = open('rules.txt', 'r')
+        print(file.read())
+    except FileNotFoundError:
+        print("Couldn't find the rules.txt file.")
+
+    s = 'y'
+    while(s == 'y'):
+        game()
+        s = input("Wanna play again?(y/n):")
+
+    print('Thanks for playing. Press any Enter to exit.')
+    input()
+        
+    
