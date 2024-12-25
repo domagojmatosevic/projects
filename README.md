@@ -18,5 +18,5 @@ List of projects:
 Minsweeper
   -created a minesweeper game
   - almost done
-  - the only thing missing is the feature of auto-completion(when you uncover a '0' tile, it doesn't uncover surrounding non-bomb tiles)
+  - the only thing missing is the feature of auto-completion(when you uncover a '0' tile, it doesn't uncover surrounding '0' tiles)
 
