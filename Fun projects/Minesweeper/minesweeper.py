@@ -5,10 +5,10 @@ import itertools
 # drawing the board
 def draw_board(board):
     index = "   "
-    for i in range(len(board)):
+    for i in range(len(board[0])):
         index += " " + str(i+1)
     print(index)
-    print("   " + len(board)*" %")
+    print("   " + len(board[0])*" %")
     for i in range(len(board)):
         line = str(i+1) + " % "
         for j in range(len(board[0])):
